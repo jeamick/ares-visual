@@ -1,0 +1,55 @@
+{
+  "fnc": "sum",
+  "tests": {
+    "3456443830654112277": {
+      "data": [
+        {
+          "name": "Olivier",
+          "job": "BNP",
+          "value": 11,
+          "value2": 2
+        },
+        {
+          "name": "Olivier",
+          "job": "BNP",
+          "value": 4,
+          "value2": 3
+        },
+        {
+          "name": "Aurelie",
+          "job": "BNP",
+          "value": 4,
+          "value2": null
+        }
+      ],
+      "time": 1541641954.2731113,
+	  "author": "Olivier Nogues"
+    },
+	"3456443830654142277": {
+      "data": [
+        {
+          "name": "Olivier",
+          "job": "BNP",
+          "value": 11,
+          "value2": 2
+        },
+        {
+          "name": "Olivier",
+          "job": "BNP",
+          "value": 4,
+          "value2": 3
+        },
+        {
+          "name": "Aurelie",
+          "job": "BNP",
+          "value": 4,
+          "value2": null
+        }
+      ],
+      "time": 1541641954.2731113,
+	  "author": "Olivier Nogues"
+    }
+  },
+  "def": "function {'name': 'sum', 'args': [['name'], ['value']]}(data, keys, vals) {var result = []; var temp = {};data.forEach( function(rec) {var aggKey = []; keys.forEach(function(k){ aggKey.push( rec[k])}); var newKey = aggKey.join(\"#\");if (!(newKey in temp)) {temp[newKey] = {}} ;vals.forEach(function(v) {if (!(v in temp[newKey])) {temp[newKey][v] = rec[v]} else {temp[newKey][v] += rec[v]}}) ;});for(var label in temp){var rec = {}; var skeys = label.split(\"#\");keys.forEach(function(k, i) {rec[k] = skeys[i];})for(var v in temp[label]) {rec[v] = temp[label][v]};result.push(rec);} ;return result; };",
+  "module": "ares.Lib.js.fncs.jsRecords"
+}
