@@ -20,15 +20,11 @@ After going through the three examples you should have the basics to use databas
 PRE-REQUISITE
 -------------
 
-The database we will create in this script will 
+The database we will create in this script will use a model defined in the models folder - just know you can either
+you can refer to that script to know how you can define your own model for you db.
 
-
-
-
-
+The Model folder can actually be anywhere you want, as long as you define modelPath
 """
-
-
 
 
 aresObj = Ares.ReportAPI()
