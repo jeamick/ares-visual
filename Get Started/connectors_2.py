@@ -52,4 +52,4 @@ result = aresObj.getData('MY_CONNECTOR')
 #we want to show the information extracted in a datatable
 aresObj.table(result)
 
-aresObj.html()
+aresObj.toHtml()

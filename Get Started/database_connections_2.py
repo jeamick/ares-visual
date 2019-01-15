@@ -56,7 +56,7 @@ if not hasData:
   fetchData(cob_date, my_db)
 
 #Finally we get the data and send it to the visualization part of AReS
-aresObj.chart('pie', base_query.getData())
+aresObj.chart('pie', aresObj.df(base_query.getData()))
 
 #output an HTML file
 aresObj.toHtml()

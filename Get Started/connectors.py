@@ -38,4 +38,4 @@ aresObj.table(ares_df)
 ares_df2 = aresObj.getData('ANOTHER_CONNECTOR', {})
 aresObj.chart('line', ares_df2)
 
-aresObj.html()
+aresObj.toHtml()
