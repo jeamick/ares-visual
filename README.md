@@ -1,7 +1,7 @@
 Ares
 =======
 
-## web reporting solution in python
+## Web reporting solution in python
 
 Ares Library allow you:
  * create quickly simple web pages containing different charts in few command line
