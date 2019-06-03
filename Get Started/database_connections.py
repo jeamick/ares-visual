@@ -8,7 +8,7 @@ This script will aim to show how to store data into a database - nothing more
 
 Finally database_connection_2.py will show a simple example of data extraction using the AReS connectors capabilities 
 (see the scripts example connectors.py for more info),do some simple transformations, store it in the database. 
-The aim of this module is to show a quick example on retreiving
+The aim of this module is to show a quick example on retrieving
 the data directly from the db if it's there or go through the data extraction step if it's missing
 
 After going through these examples you should have the basics to use databases within AReS
