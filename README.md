@@ -45,4 +45,4 @@ The documentation used to build the different components will be display in its 
 
 For any questions please use [stackoverflow](https://stackoverflow.com/) with the tag: ares-visual
 
-For any code change proposal, comment go on [GitHub](https://github.com/pynog/ares-visual)
+For any code change proposal, comment go on [GitHub](https://github.com/jeamick/ares-visual)
