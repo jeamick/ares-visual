@@ -4,8 +4,8 @@ Ares
 ## Web reporting solution in python
 
 Ares Library allow you:
- * create quickly simple web pages containing different charts in few command line
- * connect simply to any data source via the connector interface
+ * Create quickly simple web pages containing different charts in few command line
+ * Connect simply to any data source via the connector interface
 
 ### AReS for web reports and dashboard creation
 
